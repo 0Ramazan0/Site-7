@@ -1,0 +1,59 @@
+main {
+    margin: 63px 0 0 0;
+}
+
+.blogway {
+    background: url('../img/blog/blog__ibg.png') center/cover no-repeat;
+    min-height: 335px;
+}
+
+.blogway .container {}
+
+.blogway__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 335px;
+    align-items: center;
+}
+
+.blogway__title {
+    font-family: 'Amsdam';
+    font-size: 35.7px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.title {}
+
+.blogway__title::after {
+    content: '';
+    background: url(../img/blog/line____________________________________2857.png) center/cover no-repeat;
+    width: 63.8%;
+    height: 5px;
+    margin: 13px auto 0 auto;
+}
+
+.blogway__way {
+    margin: 13px 0 0 0;
+}
+
+.blogway__folder {
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.blogway__folder:after {
+    content: '>';
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.blogway__folder:last-child:after {
+    content: '>';
+    display: none;
+    margin: 0 5px;
+}
