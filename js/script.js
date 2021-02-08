@@ -287,15 +287,8 @@ function logsButClick(elem) {
 
 }
 
-// Gallery hover
-let galleryAllImg = document.querySelectorAll('.portfolio__image');
-for (let i of galleryAllImg) {
-    i
-}
-let galleryWorksSpace = document.querySelector('.portfolio__works');
-let goHeader = true;
-let goArrow = true
-    // Change width for block with map
+
+// Change width for block with map
 window.addEventListener('scroll', function(event) {
     let introHeight = document.querySelector('.intro').offsetHeight;
     let mainWidth = document.documentElement.clientWidth;
