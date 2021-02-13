@@ -352,5 +352,3 @@ document.querySelector('.nav__items').onclick = function(event) {
     document.querySelector('.burger').classList.remove("active")
     document.querySelector('body').classList.remove("lock")
 };
-
-//

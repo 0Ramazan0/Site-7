@@ -1434,11 +1434,45 @@
     
     .blog__subtitle {}
     
+    .blog__link {
+        padding: 8px 15px;
+        border: 1px solid #3e3d3d;
+        border-radius: 20px;
+        text-transform: uppercase;
+        margin: 35px 0 0 50%;
+        font-family: 'Montserrat';
+        display: inline-block;
+        color: #3e3d3d;
+        animation: blogLink 1.5s ease 0s infinite;
+        cursor: pointer;
+    }
+    
+    @keyframes blogLink {
+        0% {
+            transform: scale(1) translateX(-50%);
+            border: 1px solid #3e3d3d;
+            color: white;
+            background-color: black;
+        }
+        50% {
+            transform: scale(1.1) translateX(-50%);
+            color: #000;
+            border: 1px solid #000;
+            background-color: white;
+        }
+        100% {
+            transform: scale(1) translateX(-50%);
+            border: 1px solid #3e3d3d;
+            color: white;
+            background-color: black;
+        }
+    }
+    
     .subtitle {}
     /* Blog with blocks */
     
     .blog__bloks {
-        margin: 78px 0 0 0;
+        margin: 50px 0 0 0;
         display: flex;
         flex-wrap: wrap;
     }
